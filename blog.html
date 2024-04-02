@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>World's Biggest University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/bias logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+         </nav>
+             <h1>Our Certificate & Online Programs For 2024</h1>
+          </section>
+
+          <!--------blog page content----->
+          <section class="blog-content">
+
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Our Certificate & Online Programs For 2024</h2>
+                    <p>we understand the importance of flexible and accessible education. That's why we offer a wide range of certificate programs and online courses designed to meet the diverse needs of learners in today's dynamic world.</p>
+                    <br>
+                    <p>Certificate Programs</p><br><p>Our certificate programs provide focused, specialized training in various fields, allowing students to gain valuable skills and credentials to advance their careers or pursue new opportunities. Whether you're looking to enhance your expertise in a specific area or transition into a new industry, our certificate programs offer practical knowledge and hands-on experience to help you succeed.</p>
+                    <br>
+                    <p>Some of our popular certificate programs include:</p>
+                    <br>
+                    <p>Project Management: Learn essential project management principles, tools, and techniques to lead teams and execute projects successfully.<br><p>Digital Marketing: Explore the latest trends and strategies in digital marketing, including social media, content marketing, and search engine optimization.</p><br><p>
+                        Data Analytics: Master the fundamentals of data analysis and visualization techniques to derive valuable insights from complex datasets.</p><br><p>
+                        Graphic Design: Develop your creative skills in graphic design, including layout, typography, and image manipulation, using industry-standard software.</p><br><p>
+                        Cybersecurity: Gain expertise in cybersecurity principles, risk management, and defense strategies to protect organizations from cyber threats.</p>
+                    <br>
+                    <p>Our certificate programs are taught by experienced faculty members who are experts in their respective fields, ensuring that you receive high-quality instruction and mentorship throughout your learning journey.</p>
+                    <br>
+                    <p>Online Programs</p>
+                    <br>
+                    <p>In addition to our certificate programs, Horizon University offers a variety of online courses and degree programs that provide the flexibility and convenience of remote learning. Our online programs are ideal for busy professionals, working adults, and individuals seeking to balance their education with other commitments.</p><br><p>Through our user-friendly online platform, students can access course materials, participate in discussions, and collaborate with classmates from anywhere with an internet connection. Whether you're pursuing a bachelor's degree, master's degree, or professional certification, our online programs offer the same rigorous curriculum and academic support as our on-campus offerings.</p>
+                    <br>
+                    <p>Some of our online programs include:</p>
+                    <br>
+                    <p>Bachelor of Business Administration (BBA): Develop essential business skills and knowledge in areas such as management, marketing, finance, and entrepreneurship.</p>
+                    <br>
+                    <p>Master of Science in Information Technology (MSIT): Dive into advanced topics in information technology, including cybersecurity, data analytics, cloud computing, and software development.</p>
+                    <br>
+                    <p>We are committed to providing accessible, affordable, and high-quality education to empower individuals to achieve their goals and aspirations. Explore our certificate programs and online offerings today and take the next step towards a brighter future.</p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <from class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Name">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                        </from>
+                    </div>
+                    
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>30</span>
+                    </div>
+
+                </div>
+            </div>  
+          </section>
+
+          
+
+
+        
+
+
+       <!----footer---->
+     <section class="footer">
+     <h4>About Us</h4>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>

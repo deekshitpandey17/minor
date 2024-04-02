@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>World's Biggest University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/bias logo.jpg"></a>
+            <div class="nav-links" id= "navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+         </nav>
+             <h1>About Us</h1>
+          </section>
+
+          <!------about us content----->
+          <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                   <h1>Birla institude of Applied Sciences Bhimtal</h1>
+                   <p>Here are some factors:<br><br>Academic Programs: Highlight the academic programs, faculty expertise, and research opportunities available at your college. Discuss any notable achievements, accolades, or partnerships that contribute to academic excellence.<br><br>Campus Community: Emphasize the vibrant campus community, diverse student body, and supportive environment that fosters personal growth and development. Talk about the clubs, organizations, and extracurricular activities that enrich the student experience.<br><br>Resources and Facilities: Showcase the state-of-the-art facilities, libraries, laboratories, and other resources that support learning and research. Discuss any investments or improvements made to enhance the campus infrastructure.<br><br>Career Services and Alumni Network: Highlight the career services, internship opportunities, and alumni networking events that help students succeed beyond graduation. Share success stories of alumni who have achieved notable accomplishments in their fields.<br><br>Innovation and Impact: Discuss any innovative initiatives, community engagement projects, or sustainability efforts that demonstrate your college's commitment to making a positive impact on society. </p>
+                   <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                 </div>
+                  <div class="about-col">
+                    <img src="images/old building.webp">
+                 </div>
+                 </div>
+             </section>
+
+
+
+       <!----footer---->
+     <section class="footer">
+     <h4>About Us</h4>
+     <p>You can contact us in the contact page.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>
